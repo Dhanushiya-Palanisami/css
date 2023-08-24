@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://wallpaperaccess.com/full/4907599.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+    
+
+}
+h1{
+    float: left;
+    margin-top: 25px;
+    font-size: 30px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    
+    color: blanchedalmond;
+    position:relative;
+    
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 70px;
+    font-size: 17px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color:aliceblue;
+    padding: 10px;
+    border: 1px solid transparent;
+    transition: 0.5;
+}
+ul li a:hover{
+    background-color: aliceblue;
+    color:brown;
+}
+
+
+.menu{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top:30%;
+    left: 30%;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 25px;
+    color:rgb(32, 218, 203);
+   
+    
+}
+.abc{
+    position: absolute;
+    top: 50%;
+    left:35%;
+    text-transform: capitalize;
+    text-align: justify;
+    font-size:20px;
+    font-style: oblique;
+    color:black;
+    font-weight:700;
+}
+#h{
+    text-align-last: right;
+}
+
+.button{
+    position: absolute;
+    bottom: 20%;
+    left:30%;
+    color: black;
+    font-size: 20px;
+    transition: 0.5 ease;
+    text-decoration: none;
+    transform: translate(-50,50);
+}
+
+.button>a{
+    border-radius: 50px;
+    background-color: blue;
+}
+.btn{
+    border: 1px solid #fff;
+    width: 200px;
+    padding: 5px 20px;
+    background: transparent;
+    margin: 20px 40px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 900;
+}
+.btn:hover{
+    background-color: aliceblue;
+    color:brown;
+}
+.icon {
+    position: absolute;
+    bottom: 200px;
+    right: 30px;
+}
+.icon i{
+    background: black;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 20px;
+
+}
+.icon i:hover{
+    background-color: aliceblue;
+    color:brown;
+}
+.abc>p{
+    color: #fff;
+}
+
+@media screen and (max-width:600px){
+    .title{
+        position: absolute;
+        top:30%;
+        left: 20%;
+        text-transform: uppercase;
+        font-weight: bolder;
+        font-size: 15px;
+        color:goldenrod;
+        text-shadow: 3px -3px blueviolet,-2px 3px olive;
+
+    }
+    .icon {
+        position: absolute;
+        bottom: 20%;
+        right: 10px;
+    }
+    .icon i{
+        background: black;
+        color: #fff;
+        font-size: 20px;
+        padding: 5px 5px;
+        border-radius: 20px;
+    
+    }
+
+    .button{
+        position: absolute;
+        bottom: 10%;
+        left:10%;
+        color: black;
+        font-size: 10px;
+        transition: 0.5 ease;
+        text-decoration: none;
+        transform: translate(-50,50);
+        
+    }
+    .btn{
+        border: 1px solid #fff;
+        width: 200px;
+        padding: 5px 10px;
+        background: transparent;
+        margin: 10px 20px;
+        text-decoration: none;
+        color: aliceblue;
+        font-weight: 600;
+    }
+    h1{
+        float: left;
+        margin-top: 15px;
+        font-size: 15px;
+        margin-left: 10px;
+        text-transform: uppercase;
+        
+        color: blanchedalmond;
+        position:relative;
+        text-shadow: 4px 4px brown, 3px 4px yellow;
+    }
+    .abc{
+        position: absolute;
+        top: 50%;
+        left:25%;
+        text-transform: capitalize;
+        text-align: justify;
+        font-size:10px;
+        font-style: oblique;
+        color:aqua;
+        font-weight:900;
+    }
+    ul{
+        float: right;
+        list-style-type: none;
+        margin-top: 10px;
+        margin-right: 20px;
+        font-size: 5px;
+    }
+    ul li a{
+        padding: 10px;
+}
+    
+}
